@@ -1,0 +1,31 @@
+#login {
+    -fx-background-color : linear-gradient(to right bottom, #000000, #1c315e);
+}
+
+#btnEntrar {
+    -fx-text-fill : white;
+    -fx-font-family : 'Poppins';
+    -fx-font-size : 20px;
+    -fx-background-color : #f9560b;
+}
+
+.label {
+    -fx-text-fill : white;
+    -fx-font-family : 'Poppins';
+}
+
+.labelBold {
+    -fx-font-family : 'Popinns';
+    -fx-font-weight : bold;
+    -fx-font-size : 32px;
+}
+
+.checkBox {
+    -fx-text-fill : #ececec;
+    -fx-font-family : 'Poppins';
+    -fx-font-size : 16px;
+}
+
+.checkBox.box {
+    -fxbackground-color : #000000;
+}
