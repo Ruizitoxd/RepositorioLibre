@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23" fx:controller="CONTROLADOR.Vista1Controller">
+   <children>
+      <Button fx:id="btnPito" layoutX="199.0" layoutY="188.0" mnemonicParsing="false" onAction="#click" prefHeight="25.0" prefWidth="202.0" text="Pito" textAlignment="CENTER" />
+      <ChoiceBox fx:id="choiceBox" layoutX="94.0" layoutY="50.0" prefWidth="150.0" />
+      <ComboBox fx:id="comboBox" layoutX="375.0" layoutY="50.0" prefWidth="150.0" />
+      <ColorPicker fx:id="colorPicker" layoutX="94.0" layoutY="95.0" />
+      <DatePicker fx:id="datePicker" layoutX="348.0" layoutY="95.0" />
+      <CheckBox fx:id="checkBox" layoutX="254.0" layoutY="22.0" mnemonicParsing="false" text="CheckBox" />
+   </children>
+</AnchorPane>
